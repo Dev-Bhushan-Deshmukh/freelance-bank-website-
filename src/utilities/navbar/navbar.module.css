@@ -1,0 +1,218 @@
+.navbar{
+height: 72px;
+    /* height:149px; */
+    width: 100%;
+    background: white;
+    position: sticky;
+    top: 0;
+    border-bottom: solid 1px rgb(227, 227, 227);
+  
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  
+  
+  
+  
+  }
+  .closebtn{
+    position: absolute;
+    top:5px;
+right: 5px;
+  }
+  .verticalnav{
+position: absolute;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(255, 255, 255);
+width: 200px;
+height: fit-content;
+border:solid 1px rgb(219, 219, 219);
+-webkit-box-shadow: -1px 2px 5px -1px rgba(171,171,171,1);
+-moz-box-shadow: -1px 2px 5px -1px rgba(171,171,171,1);
+box-shadow: -1px 2px 5px -1px rgba(171,171,171,1);
+top:23px;
+left: 70px;
+  }
+
+  .menu{
+
+    position: absolute;
+    /* background-color: #545454; */
+    left: 20px;
+    cursor: pointer;
+  }
+  .logocontainer{
+    height: 45px;
+    width: 150px;
+}
+.logocontainer img{
+  width: 100%;
+  
+}
+  
+  /* .logocontainer{
+  
+  width: 253px;
+  height: 75px;
+  
+  
+  
+  
+  } */
+
+
+  .verticalnavlinks{
+    /* background-color: #545454;
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+
+     
+   
+      font-weight: 400;
+       font-size: 13px; */
+   
+      
+  }
+.verticalnavlinkItem{
+  /* background-color: rgb(40, 33, 33); */
+  height: 50px;
+  width: 72px;
+  display: flex;
+align-items: center;
+  /* padding-left: 50px; */
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  color: #000000;
+  font-size: 13px;
+}
+.activeverticalnavlinkItem{
+  /* background-color: rgb(40, 33, 33); */
+  height: 50px;
+  width: 72px;
+  display: flex;
+align-items: center;
+  /* padding-left: 50px; */
+  text-decoration: none;
+  font-family: 'Inter';
+  font-style: normal;
+  color: #F26529;
+  font-size: 13px;
+}
+
+
+
+
+
+
+
+  .navlinks{
+    /* width: 40%; */
+      width: 50%;
+      display: none;
+      /* display: flex; */
+      /* gap: 20px; */
+      justify-content: space-between;
+      align-items: center;
+      /* background-color: antiquewhite; */
+   
+      font-weight: 400;
+       font-size: 13px;
+      /* font-size: 16px; */
+      line-height: 19px;
+      
+  }
+  .navlinkItem{
+      text-decoration: none;
+      font-family: 'Inter';
+      font-style: normal;
+      color: #000000;
+  }
+  .activenavlinkItem{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #F26529;
+  }
+  .language{
+    display: none;
+  width: 90px;
+  /* height: 34.04px; */
+  height: 28.04px;
+  border: solid 1px #637D87;
+  color: #545454;
+  align-content: center;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  
+  
+  }
+  @media  screen and (min-width: 815px){
+    .verticalnav{
+      display: none
+      
+      ;
+    }
+    .language{
+      display: block;
+    }
+    .navlinks{
+      display: flex;
+    }
+.menu{
+  display: none;
+}
+  }
+  @media  screen and (min-width: 1000px){
+    .navbar{
+
+      height: 149px;
+    }
+.navlinks{
+    width: 40%;
+    /* font-size: 12px; */
+}
+
+
+  .language{
+    height: 34.04px;
+  }
+
+  }
+  @media  screen and (min-width: 1424px){
+    .navbar{
+      /* justify-content: start; */
+      /* height: 149px; */
+    }
+    .logocontainer{
+      /* margin-left: 13.5%; */
+    }
+.navlinks{
+    width: 40%;
+    /* font-size: 16px; */
+}
+
+
+  }
+
+  @media  screen and (min-width: 1300px){
+    .navlinks{  font-size: 16px;
+    }
+    .logocontainer{
+  
+      width: 253px;
+      height: 75px;
+      
+      
+      
+      
+      }
+  }
+

@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+font: 'Inter';
+font-style: normal;
+/* For WebKit browsers */ 
+
+}
+::-webkit-scrollbar { 
+  width: 0px; /* Change this value to your desired width */ 
+} 
+
+::-webkit-scrollbar-thumb { 
+  background-color: darkgrey; /* Color of the scrollbar thumb */ 
+  border-radius: 10px; /* Optional: Rounded corners */ 
+} 
+
+::-webkit-scrollbar-track { 
+  background: #f1f1f1; /* Background of the scrollbar track */ 
+}
+button
+{
+  cursor: pointer;
+
+}

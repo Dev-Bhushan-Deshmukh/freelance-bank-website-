@@ -1,0 +1,58 @@
+.sliderbuttoncontainer{
+    width:100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    /* background-color: aqua; */
+
+}
+.sliderbuttoncontainer button{
+    height: 60px;
+    width: 60px;
+    background-color: #00466D;
+    display: grid;
+    place-content: center;
+    border: none;
+border-radius: 100%;
+}
+.imagename{
+    background-color: #00466D;
+   display: grid;
+   place-content: center;
+   font-size: 24px;
+   color: white;
+    height: 78px;
+    width: 100%;
+}
+.slidermaincontainer img{
+   object-fit: cover;
+   background-color: black;
+   width: 100%;
+   
+   
+  
+}
+.slidermaincontainer{
+    overflow: hidden;
+}
+
+@media only screen and (min-width:600px) and (max-width:820px){
+    .imagename{
+       
+       font-size: 18px;
+    }
+}
+@media only screen and (min-width:1000px) {
+    .slidermaincontainer{
+        width: 70%;
+    }
+}
+@media only screen and (max-width:900px ) {
+    .sliderbuttoncontainer button{
+        height: 44px;
+        width:44px;
+
+    }
+}

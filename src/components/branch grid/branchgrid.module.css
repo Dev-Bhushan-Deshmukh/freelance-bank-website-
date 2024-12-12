@@ -1,0 +1,166 @@
+
+
+/* mobile first css start */
+        .branchgridcontainer{
+
+    
+     
+                width: 100%;
+                /* align-content: center; */
+                justify-items: center;
+                /* background-color: rgb(76, 81, 81); */
+                display: grid;
+                grid-gap: 10px;
+                grid-column-gap: 10px;
+                grid-template-columns: repeat(1,1fr);
+            margin-bottom: 80px;
+             
+        }
+
+
+        .branchcarditem h1{
+                font-weight: 600;
+                font-size: 20px;
+                /* font-size: 30px; */
+                        color:#00466D
+                
+                }
+                    .innerdiv{
+                height: 300px;
+                width: 100%;
+                /* background-color: aqua; */
+                border: solid 1px grey;
+                display: grid;
+                place-items: center;
+                border-radius: 12px;
+                
+                    }
+                .branchinfo{
+                        width: 90%;
+                /* border-bottom: solid 1px orange; */
+                /* line-height:   30px; */
+                height: 90%;
+                display: flex;
+                flex-direction: column;
+                /* justify-content: space-between; */
+                /* background-color: #71402b; */
+                
+                }
+                
+                
+                
+                .branchheadline{
+                        border-bottom: solid 1px  #F26529;
+                color: #F26529;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 35px;
+                }
+                
+                .branchesdetail{
+                
+                      /* height: 700px; */
+                      flex: 1;
+                        /* background-color: aqua; */
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                }
+                .spancontainer{
+                flex:1;
+                /* background-color: blue; */
+                }
+                .spancontainer span{
+                        display: block;
+                        margin-top: 25px;
+                        font-size: 12px;
+                }
+                #branchcardbtn{
+                    width: 100%;
+                    height: 44px;
+
+
+
+                    border-radius: 10px;
+                        border: solid 1px #F26529;
+                        background-color: #FFF8F0;
+                        font-size: 16px;
+                        color: #F26529;
+                        font-weight: 700;
+                }
+                .branchcarditem{
+                        width: 98%;
+                        max-width: 335px;
+                        /* background-color: #F26529; */
+
+        height: 360px;
+                }
+
+
+@media only screen and (min-width:509px) and (max-width:729px) {
+        .branchcarditem{
+                width: 98%;
+                max-width: 455px;
+                /* background-color: #F26529; */
+
+height: 390px;
+        }
+
+        .spancontainer span{
+                display: block;
+                margin-top: 25px;
+                font-size: 16px;
+        }
+}
+
+
+            @media only screen and (min-width:730px) {
+                .branchgridcontainer{   grid-template-columns: repeat(2,1fr);
+                }
+            }
+
+
+
+            @media only screen and (min-width:1000px) {
+                .branchgridcontainer{
+                        /* background-color: red; */
+                        width: 70%;
+                }
+              
+        }
+   @media only screen and (min-width:1330px){
+        .branchcarditem{
+                /* background-color: #00466D; */
+              
+                max-width: 540px; 
+                height: 500px;
+
+                }   .branchcarditem h1{
+text-align: left;
+                        font-size: 30px;
+                }
+                 .innerdiv{
+                        height: 425px;
+                
+                }
+                .branchheadline{
+font-size: 24px;
+line-height: 60px;
+
+                }    
+                .spancontainer span{
+                        display: block;
+                        margin-top: 25px;
+                        font-size: 24px;
+                }
+                #branchcardbtn{
+                        width:250px;
+                        height: 60px;
+                        border-radius: 15px;
+                       
+                        font-size: 20px;
+                        
+                      
+
+                    }
+   }

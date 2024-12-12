@@ -1,0 +1,356 @@
+/* mobile first css start */
+.pagename{
+    font-size: 11px;
+    width: 98%;
+    margin-top: 20px;
+    text-align: center;
+}
+.servicecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 1px grey;
+  /* background-color: antiquewhite; */
+    /* height:1562px; */
+
+    width: 98%;
+    /* background-color: aqua; */
+   
+} .servicecontainer li{
+    margin-left: 3%;
+} 
+.servicecontainer h1{
+    margin-bottom:18px ;
+    /* margin-bottom:38px ; */
+     
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 20px;
+     /* font-size: 35px; */
+    width: 100%;
+     text-align: center;
+     color: #00466D;
+ }
+
+
+
+ .servicecontainer h2{
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    
+    
+    color: #F26529;
+    margin-bottom: 15px;
+    
+    }
+
+
+
+
+.servicecontainer img{
+    width: 100%;
+    margin-bottom: 0px;
+
+
+    /* background-color: rgb(216, 216, 216); */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#featuresummery{
+    display: block;
+/* font-size: 16px; */
+/* margin-bottom:35px; */
+margin-bottom:25px;
+}
+
+
+.featuredescription{
+    margin-top: 15px;
+    height:300px;
+    width: 100%;
+    /* background-color: #F26529; */
+    font-size: 12px;
+    }
+
+
+#servicebtn{
+    /* Rectangle 308 */
+    
+    height: 40px;
+    width: 180px;
+    border-radius: 15px;
+    
+    background: #FFF8F0;
+    border: 2px solid #F26529;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F26529;
+    
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+    }
+
+
+
+
+
+/* mobile first css end*/
+
+
+
+
+
+
+
+
+.main-container{
+    min-height: 100dvh;
+    height: fit-content;
+    width: 100dvw;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+    
+    }
+
+    .servicecontainerparent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 160px;
+    }
+
+
+ 
+    .servicecontainer{
+        /* display: flex;
+        flex-direction: column;
+        align-items: start;
+        border-bottom: solid 1px grey;
+        height:1562px;
+        width: 73% */
+        /* background-color: aqua; */
+       
+    }   .servicecontainer:last-of-type {
+        border-bottom: solid 0px grey;
+    }
+  
+    .servicecontainer img{
+        /* background-color: rgb(216, 216, 216);
+        border-radius: 10px;
+        margin-bottom: 63px; */
+    }
+    /* Savings accounts */
+    .servicecontainer h1{
+/* 
+       margin-bottom:38px ;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+       width: 100%;
+        
+        color: #00466D; */
+    }
+
+
+    .servicecontainer h2{
+/* width: 100%;
+font-weight: 600;
+font-size: 24px;
+
+
+color: #F26529;
+margin-bottom: 35px; */
+
+}
+
+#featuresummery{
+    /* display: block;
+font-size: 16px;
+margin-bottom:35px; */
+}
+
+
+
+
+.featuredescription{
+/* margin-top: 53px;
+height:301px;
+width: 100%;
+background-color: #F26529; */
+
+}
+
+#servicebtn{
+/* Rectangle 308 */
+/* 
+height: 60px;
+width: 250px;
+border-radius: 15px;
+
+background: #FFF8F0;
+border: 2px solid #F26529;
+border-radius: 15px;
+font-size: 20px;
+font-weight: bold;
+color: #F26529;
+
+    margin-top: 20px; */
+
+}
+
+
+
+@media only screen and (min-width:815px) {
+    .servicecontainer li{
+        margin-left: 1%;
+    } 
+    .pagename{
+text-align: left;
+
+    }
+    .servicecontainer h1{
+
+text-align: left;
+
+    }
+}
+@media only screen and (min-width:600px) {
+
+#servicebtn{
+
+    align-self:flex-start;
+}
+}
+
+
+
+@media only screen and (min-width:1000px){
+    .pagename{
+        margin-top: 93px;
+        width: 83%;
+        font-size: 14px;
+        /* text-align:left; */
+    }
+#servicebtn{
+
+    margin-bottom: 50px;
+}
+    .servicecontainer{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        border-bottom: solid 1px grey;
+        /* height:1562px; */
+        width: 85%;
+        /* background-color: aqua; */
+       margin-bottom: 100px;
+    } 
+
+
+
+
+.servicecontainer{
+    /* width: 100%;
+    align-items: center;
+    font-size: 11px;
+    /* background-color: #00466D; */
+    /* height:1220px;
+    margin-bottom: 20px;  */
+}  .servicecontainer h1{
+    margin-bottom:20px ;
+    font-size: 25px;
+
+}
+
+.servicecontainer h2{
+    width: 98%;
+    font-weight: 600;
+    font-size: 20px;
+    
+    
+    color: #F26529;
+    margin-bottom: 15px;
+    
+    }
+
+
+#featuresummery{
+    font-size: 16px;
+}
+.servicecontainer img{
+    width: 98%;
+    margin-bottom: 10px;
+}
+.servicecontainer h1{
+    /* text-align: center; */
+}
+.servicecontainerparent{
+    /* background-color: #F26529; */
+}
+
+
+.featuredescription{
+   
+    font-size: 16px;
+    }
+#servicebtn{
+
+
+    height: 60px;
+    width: 250px;
+    /* Rectangle 308 */
+    
+    /* height: 50px;
+    width: 80%;
+   
+    
+    background: #FFF8F0;
+    border: 2px solid #F26529;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #F26529;
+    
+        margin-top: 0px; */
+    
+    }
+
+    .servicecontainerparent{
+      
+        margin-bottom: 10px;
+    }
+/* button{
+height: 30px;
+
+
+} */
+
+
+
+
+
+
+
+}
+
+
+@media  screen and (min-width: 1381px)  {
+    .servicecontainer,.pagename{
+       
+        width: 73%;
+        /* background-color: aqua; */
+       
+    } 
+}
